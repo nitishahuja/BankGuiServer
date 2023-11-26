@@ -146,8 +146,6 @@ const executeInsertQuery = (req, res, tableName, data) => {
   connection.connect();
 };
 
-// ... (existing code)
-
 // Function to update data in any table dynamically
 const executeUpdateQuery = (req, res, tableName, primaryKey, updateData) => {
   const connection = new Connection(config);
